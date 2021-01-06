@@ -1,6 +1,6 @@
 const express = require('express');
 
-const schemeRouter = require("./schemes/scheme-router");
+const schemeRouter = require("./api/schemes/scheme-router");
 
 const server = express();
 

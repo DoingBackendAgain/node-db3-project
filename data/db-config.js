@@ -3,4 +3,6 @@ const knex = require("knex")
 
 const knexfile = require("../knexfile")
 
-module.exports = knex(knexfile["development"])
+const database = "developement"
+
+module.exports = knex(knexfile[database]);
