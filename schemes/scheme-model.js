@@ -1,5 +1,5 @@
 // scheme-model
-const db = require("../data/db-config.js")
+const db = require("../data/dbconfig.js")
 
 module.exports = {
     find,
